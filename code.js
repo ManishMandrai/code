@@ -55,6 +55,10 @@ function onePlusAvg(x, y){
     return 1 + (x + y) / 2
 }
 
+const sum = (p,q) => {
+    return p + q
+}
+
 let a = 1;
 let b = 12;
 let c = 123;
@@ -64,5 +68,10 @@ console.log("One plus Avarage of a & b is ", onePlusAvg(a, b));
 console.log("One plus Avarage of b & c is ", onePlusAvg(b, c));
 console.log("One plus Avarage of c & a is ", onePlusAvg(c, a));
 
+console.log(sum(9,33))
 
 
+const hello = ( ) => {
+    console.log("Hii! How are you?"); 
+}
+hello()
