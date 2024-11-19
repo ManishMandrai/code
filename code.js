@@ -16,19 +16,29 @@
 // }
 
 
-let mode = "dark"
-let color;
+// let mode = "dark"
+// let color;
 
-if (mode === "dark"){
-    color = "black";
-}else if (mode == "blue"){
-    color = "blue"
-}else if (mode == "red"){
-    color = "red"
-}else{
-    color = "white";
-}
+// if (mode === "dark"){
+//     color = "black";
+// }else if (mode == "blue"){
+//     color = "blue"
+// }else if (mode == "red"){
+//     color = "red"
+// }else{
+//     color = "white";
+// }
 
-console.log(color);
+// console.log(color);
+// if (mode  === "dark") console.log(mode);
 
-if (mode  === "dark") console.log(mode);
+
+// let age = 14;
+
+// let result = age  >= 18 ? "adult" : "not adult"
+
+// console.log(result);
+
+// alert("Hello");
+prompt("hello")
+
