@@ -6,11 +6,29 @@
 // console.log("cond1 && cond2 = ", cond1 && cond2)
 
 
-let age = 15;
+// let age = 15;
 
-if (age > 18){
-    console.log("You can vote");
-}else{
-    console.log("You can't vote");
+// if (age > 18){
+//     console.log("You can vote");
+// }else{
+//     console.log("You can't vote");
     
+// }
+
+
+let mode = "dark"
+let color;
+
+if (mode === "dark"){
+    color = "black";
+}else if (mode == "blue"){
+    color = "blue"
+}else if (mode == "red"){
+    color = "red"
+}else{
+    color = "white";
 }
+
+console.log(color);
+
+if (mode  === "dark") console.log(mode);
