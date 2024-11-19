@@ -40,5 +40,29 @@
 // console.log(result);
 
 // alert("Hello");
-prompt("hello")
+// prompt("hello")
+
+// let num = prompt("Enter a number")
+
+// if (num % 5 === 0){
+//     console.log(num,"is multiple of 5");
+// }else{
+//     console.log(num, "is not ");
+    
+// }
+
+function onePlusAvg(x, y){
+    return 1 + (x + y) / 2
+}
+
+let a = 1;
+let b = 12;
+let c = 123;
+
+
+console.log("One plus Avarage of a & b is ", onePlusAvg(a, b));
+console.log("One plus Avarage of b & c is ", onePlusAvg(b, c));
+console.log("One plus Avarage of c & a is ", onePlusAvg(c, a));
+
+
 
