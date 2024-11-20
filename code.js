@@ -78,16 +78,17 @@
 // let v = hello ()
 // console.log(v)
 
-const user = {
-    username: "Manish",
-    price:999,
-    welcomeMessage : function(){
-        console.log(`${this.username}, welcome to our community`);    
-        console.log(this);
+// const user = {
+//     username: "Manish",
+//     price:999,
+//     welcomeMessage : function(){
+//         console.log(`${this.username}, welcome to our community`);    
+//         console.log(this);
          
-    }
-}
-user.welcomeMessage()
+//     }
+// }
+// user.welcomeMessage()
 
-user.username = "makhan"
-user.welcomeMessage()
+// user.username = "makhan"
+// user.welcomeMessage()
+
